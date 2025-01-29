@@ -44,7 +44,7 @@ class Autoencoder_Conv(nn.Module):
             nn.ConvTranspose2d(
                 in_channels=16, out_channels=1, kernel_size=3, stride=2, padding=1, output_padding=1
             ),  # Output: (1, 28, 28)
-            #nn.Sigmoid(),  # Escala la salida entre [0, 1]
+            nn.Sigmoid(),  # Escala la salida entre [0, 1]
         )
 
     def forward(self, x):
