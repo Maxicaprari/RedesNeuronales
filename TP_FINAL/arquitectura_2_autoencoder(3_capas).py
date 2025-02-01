@@ -42,7 +42,7 @@ class Autoencoder_Conv(nn.Module):
             nn.Linear(self.n, 64 * 4 * 4),
             nn.ReLU(),
             nn.Dropout(self.p),
-            nn.Unflatten(dim=1, unflattened_size=(64, 4, 4)),  # (64, 3, 3)
+            nn.Unflatten(dim=1, unflattened_size=(64, 4, 4)),  # (64, 4, 4)
             nn.ConvTranspose2d(64, 32, kernel_size=3, stride=2, padding=1, output_padding = 0),  # (32, 7, 7)
             nn.ReLU(),
             nn.Dropout(self.p),
