@@ -34,7 +34,10 @@ Experimentos de tuning de hiperparámetros, análisis de pérdida y métricas de
 Proporcionar implementaciones detalladas y reproducibles de modelos neuronales clásicos y modernos, útiles para comprender la dinámica neuronal y las aplicaciones avanzadas de Deep Learning.
 
 # Estructura del repositorio 🛠️
-Cada trabajo tiene su propia carpeta con:
+**Cada trabajo tiene su propia carpeta con:**
+
 Código fuente completo.
+
 Informe del proyecto en formato PDF.
+
 Resultados y visualización de las métricas clave.
