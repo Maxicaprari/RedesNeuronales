@@ -34,7 +34,11 @@ Encoder pre-entrenado: Ofrece una mejor representación inicial, acelerando la c
 Entrenado desde cero: Aunque requiere más tiempo de entrenamiento, logró mejores resultados cuando se optimizó correctamente.
 
 # Requisitos
+
 Python 3.x
+
 PyTorch
+
 Numpy
+
 Matplotlib
