@@ -12,14 +12,16 @@ Resolución numérica mediante el método de Runge-Kutta de cuarto orden (RK4).
 
 Análisis de respuesta neuronal ante diferentes estímulos de corriente y evolución de los canales iónicos.
 
+## Trabajo 2: Clasificación con Redes Neuronales Feedforward (MLP)
 
-## Trabajo 2: Redes Neuronales Recurrentes (RNN)
+Implementación de una red neuronal feedforward para la clasificación de imágenes del dataset Fashion-MNIST.
 
-Implementación de RNN y LSTM para el procesamiento de secuencias.
+Diseño de una arquitectura con dos capas ocultas y función de activación ReLU.
 
-Predicción de series temporales y análisis de datos secuenciales.
+Entrenamiento y evaluación utilizando diferentes hiperparámetros: learning rate, tamaño de lote, y optimizadores como Adam y SGD.
 
-Optimización y comparación de resultados con distintos hiperparámetros.
+Análisis de la pérdida y precisión en el conjunto de validación para comparar el rendimiento de la red.
+
 
 
 ## Trabajo Final: Autoencoders y Clasificadores Convolucionales (CNN)
