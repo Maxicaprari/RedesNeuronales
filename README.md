@@ -30,6 +30,8 @@ Autoencoders para reducción de dimensionalidad y generación de representacione
 
 Clasificadores basados en redes convolucionales para tareas de clasificación complejas.
 
+Transfer learning con encoders preentrenados.
+
 Experimentos de tuning de hiperparámetros, análisis de pérdida y métricas de rendimiento.
 
 # Objetivo 🎯
